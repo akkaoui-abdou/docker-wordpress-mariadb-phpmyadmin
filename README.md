@@ -1,4 +1,4 @@
-#-----------------------------------------------------------------------------------
+###-----------------------------------------------------------------------------------
 # On donne le nom "wordpress" à ce container,
 # à partir de l'image "wordpress",
 # on le lie à notre bdd nommée "db",
@@ -22,7 +22,7 @@
 # https://docs.docker.com/compose/compose-file/#restart
 # https://docs.docker.com/compose/compose-file/#volumes
 # https://docs.docker.com/compose/compose-file/#environment
-#-----------------------------------------------------------------------------------
+###-----------------------------------------------------------------------------------
 
 version: "3.9"
 
