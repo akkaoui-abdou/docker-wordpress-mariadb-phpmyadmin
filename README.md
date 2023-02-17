@@ -24,8 +24,6 @@
 # https://docs.docker.com/compose/compose-file/#environment
 #-----------------------------------------------------------------------------------
 
-# Version a utiliser pour le format du fichier docker-compose
-
 version: "3.9"
 
 services :
