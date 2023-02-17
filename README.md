@@ -1,29 +1,3 @@
-###-----------------------------------------------------------------------------------
-# On donne le nom "wordpress" à ce container,
-# à partir de l'image "wordpress",
-# on le lie à notre bdd nommée "db",
-# sur le port 8081 de notre machine, qui pointe sur le port 80 de notre "container",
-# puis pour finir on copie le "volume".
-#-----------------------------------------------------------------------------------
-# On donne le nom "wpmariadb" à ce container,
-# à partir de la dernière image "mariadb",
-# on init une variable "MYSQL_ROOT_PASSWORD = root",
-# sur le port 3306 de notre machine, qui pointe sur le port 3306 de notre "container".
-#-----------------------------------------------------------------------------------
-# On donne le nom "wpphpmyadmin" à ce "container",
-# à partir de l'image "phpmyadmin/phpmyadmin",
-# on le lie à notre bdd nommée "db",
-# on init 2 variables "MYSQL_USERNAME= root" et "MYSQL_ROOT_PASSWORD=root",
-# sur le port 8080 de notre machine, qui pointe sur le port 80 de notre "container",
-# on crée un volume "/sessions".
-#-----------------------------------------------------------------------------------
-# Ressources :
-# https://docs.docker.com/compose/compose-file/#image
-# https://docs.docker.com/compose/compose-file/#restart
-# https://docs.docker.com/compose/compose-file/#volumes
-# https://docs.docker.com/compose/compose-file/#environment
-###-----------------------------------------------------------------------------------
-
 version: "3.9"
 
 services :
