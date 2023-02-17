@@ -1,0 +1,1 @@
+# docker-wordpress-mariadb-phpmyadmin
